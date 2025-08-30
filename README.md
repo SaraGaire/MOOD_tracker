@@ -14,3 +14,17 @@
 #│ ├── 📄 SummaryTab.jsx # AI insights + quick stats
 #│ ├── 📄 helpers.js # Utility functions (averages, distributions, streaks, etc.)
 #│ └── 📄 aiResponses.js # AI mood-based responses
+
+This is the backend server for MoodBot, built with Node.js + Express. It powers the mood tracking app by handling:
+
+🎭 Mood tracking → Save, update, and retrieve user mood entries.
+
+📊 Analytics → Generate weekly trends, mood distributions, and daily/hourly insights.
+
+💬 AI Chat → Provide supportive responses based on the user’s mood and messages.
+
+🧪 Sample data → Auto-generate demo moods for new users.
+
+🛠 REST API → Includes endpoints for moods, analytics, chat, and health checks.
+
+The backend currently uses an in-memory database (for demo/testing), but can be extended to use MongoDB, PostgreSQL, or any persistent database in production.
