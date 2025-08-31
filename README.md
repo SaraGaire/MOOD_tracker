@@ -35,3 +35,9 @@ npm install express cors uuid
 # Run the server
 node server.js
 # Server runs on http://localhost:5000
+
+# Install dependencies  
+npm install react recharts lucide-react
+
+# The React component connects to the API
+# Currently in demo mode with mock responses
