@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mood Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <h1> MoodBot - Mood Tracker</h1>
+    <p>Track your daily mood and chat with AI (demo mode).</p>
+
+    <!-- Mood Selector -->
+    <div id="mood-options" class="mood-options"></div>
+
+    <!-- Note Input -->
+    <div class="note-section">
+      <textarea id="mood-note" placeholder="What's on your mind?"></textarea>
+      <button id="save-mood">Save Mood</button>
+    </div>
+
+    <!-- Chat Section -->
+    <div class="chat-box">
+      <div id="chat-messages"></div>
+      <div class="chat-input">
+        <input type="text" id="chat-input" placeholder="Type a message...">
+        <button id="send-message">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
