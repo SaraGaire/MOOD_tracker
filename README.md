@@ -28,3 +28,10 @@ This is the backend server for MoodBot, built with Node.js + Express. It powers 
 🛠 REST API → Includes endpoints for moods, analytics, chat, and health checks.
 
 The backend currently uses an in-memory database (for demo/testing), but can be extended to use MongoDB, PostgreSQL, or any persistent database in production.
+
+# Install dependencies
+npm install express cors uuid
+
+# Run the server
+node server.js
+# Server runs on http://localhost:5000
